@@ -1,0 +1,30 @@
+/* ************** */
+
+/* *{
+    margin: 0;
+/* this will called seletor and it will close the default margin */
+/* } */
+/* div{ */
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: black; */
+    /* border: 2px dotted teal; */
+    /* border-right: 2px solid green; */
+    /* border: 2px solid red; */
+    /* padding: 10px 20px; */
+    /* padding first value is top and botton and secont value is left and right */
+    /* margin: 20px 0; */
+/* } */ 
+/* ***************** */
+div{
+    height: 100vh;
+    background-color: green;
+    /* background-image: url("https://unsplash.com/photos/a-kitchen-with-three-stools-next-to-a-counter-MRvoaxmC-bY"); */
+    background-image: url("https://images.unsplash.com/photo-1718938610048-843cfecefef6?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8");
+    background-repeat: none;
+    background-size: cover ;
+    background-position: bottom;
+    /* to scroll image with us scrolling use bg attachment properties */
+    background-attachment: fixed;  /*gives a paralax effect*/
+    
+}

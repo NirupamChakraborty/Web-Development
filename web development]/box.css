@@ -16,15 +16,36 @@
     /* margin: 20px 0; */
 /* } */ 
 /* ***************** */
-div{
-    height: 100vh;
-    background-color: green;
+/* div{ */
+    /* height: 100vh; */
+    /* background-color: green; */
     /* background-image: url("https://unsplash.com/photos/a-kitchen-with-three-stools-next-to-a-counter-MRvoaxmC-bY"); */
-    background-image: url("https://images.unsplash.com/photo-1718938610048-843cfecefef6?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8");
-    background-repeat: none;
-    background-size: cover ;
-    background-position: bottom;
+    /* background-image: url("https://images.unsplash.com/photo-1718938610048-843cfecefef6?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"); */
+    /* background-repeat: none; */
+    /* background-size: cover ; */
+    /* background-position: bottom; */
     /* to scroll image with us scrolling use bg attachment properties */
-    background-attachment: fixed;  /*gives a paralax effect*/
+    /* background-attachment: fixed;  gives a paralax effect */
     
+/* } */
+div{
+    
+    /* background-image: linear-gradient(to right,rgb(87, 87, 189), rgb(78, 198, 78)) ,url("https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D"); */
+    /* same can be done with radial gradient */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    /*  now we will learn about filters */
+    filter: blur(20px);
+    filter: brightness(50%);
+    filter: contrast(70%);
+    filter: grayscale(38%);
+
 }
+
+
+
+/* now we will learn about selectors */
+/* advance selectors */

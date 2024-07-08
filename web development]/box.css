@@ -80,3 +80,19 @@ color: aqua;
 div.text{
   color: teal;  
 }
+div p{
+    color: crimson;
+}
+
+div h1{
+    color: aqua;
+}
+div > p {
+    /* only the tag that is immidiately inside the div will get the style  */
+color: green;  
+}
+
+/* this is an attribute */
+a[href="one"]{
+    color: orange;
+}

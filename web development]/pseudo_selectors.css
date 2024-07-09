@@ -1,0 +1,14 @@
+.link:link{
+    color: orange;
+    /* color changes once visited  */
+}
+.visited:visited{
+    color: green;
+}
+
+.hover:hover{
+    color: aqua;
+}
+.active:active{
+    color: rgb(222, 135, 181);
+}

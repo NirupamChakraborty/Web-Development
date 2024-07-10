@@ -12,3 +12,34 @@
 .active:active{
     color: rgb(222, 135, 181);
 }
+/* ********************** */
+div{
+    background-color: crimson;
+    width: 200px;
+    height: 200px;
+}
+span{
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    /* by default span is inline and div is block */
+}
+.fa-brands{
+    color: blue;
+    
+}
+
+/* shadows in css */
+/* syntax
+ x,y,blurness,color
+   */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(152, 152, 219);
+    box-shadow: 3px 5px 3px rgb(219, 157, 41) ;
+}
+h1{
+    text-shadow: 5px 5px 5px rgb(10, 242, 10);
+}

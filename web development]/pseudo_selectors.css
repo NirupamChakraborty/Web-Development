@@ -43,3 +43,28 @@ div{
 h1{
     text-shadow: 5px 5px 5px rgb(10, 242, 10);
 }
+/* CSS INHERITANCE */
+/* 
+Inheritance is when we declare something on an element, 
+and it applies that elements decendant
+
+only typography will be inherited 
+
+color, font
+layout will not be inherited
+
+*/
+
+.parent{
+    color: orange;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    background: teal;
+}
+.children{
+    position: relative;
+    left: 100px;
+}

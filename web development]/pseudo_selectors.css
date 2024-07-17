@@ -68,3 +68,35 @@ layout will not be inherited
     position: relative;
     left: 100px;
 }
+/*     layout and positions */
+.container{
+    background: grey;
+    width: 90%;
+    height: 400px;
+}
+
+.d{
+height: 100px;
+font-weight: 100px;
+}
+
+.one{
+background: green;
+position: relative;
+left: 100px;
+/* it does not leaves its place */
+}
+.two{
+    background: red;
+    position: absolute;
+    left: 200px;
+    /* it will leave its place  */
+}
+.three{
+    background: blue;
+    /* position: fixed; */
+    /* left: 200px; */
+    position: sticky;
+    top: 100px;
+
+}

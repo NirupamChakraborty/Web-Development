@@ -1,0 +1,72 @@
+/* css fliex box works on one dimention but css grid works on a two dimentional plane */
+
+*{
+    margin: 0;
+}
+
+.container{
+    background: rgb(34, 34, 34);
+    padding: 20px;
+    height: 100vh;
+
+    /* GRID STUFF HERE  here also we have to provide display flex on container  */
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px;  this will give three columns of 100 px */
+    grid-template-columns: repeat(4,200px);
+    /* grid-template-columns: repeat(auto-fit,200px); */
+    /* grid-template-columns: repeat(auto-fill ,200px); */
+    /* grid-template-rows: 200px minmax(200px,1fr) 200px; */
+    grid-template-rows: repeat(5,200px);
+
+/* grid naming */
+
+    /* grid-template-rows: [start]200px 200px [end]200px; */
+    grid-gap: 10px;
+
+    /* WE CAN ALSO USE CSS FLEXBOX PROPERTIES IN CSS GRID */
+    
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    grid-template-areas: "h h h h" "m m m m" "s s . a" "f f f f";
+}
+
+header{
+   /*  
+    order: 1;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+      */
+
+      grid-area: h ;
+    /* grid-row-start: 1; */
+    /* grid-row-start: 3; */
+}
+
+aside{
+    /* shortcut  */
+    /* grid-column: 2/4; */
+    /* grid-row: start/end ; */
+    /* grid-column-end: -1; */
+
+    grid-area: a;
+
+}
+main{
+    align-self: center ;
+    grid-area: m;
+}
+
+section{
+    grid-area: s;
+}
+footer{
+    grid-area: f;
+}
+
+.s{
+    padding: 20px;
+    background: rgb(84, 84, 84);
+    text-align: center;
+    color: aliceblue;
+    /* margin: 2px; */
+}

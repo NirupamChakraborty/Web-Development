@@ -1,21 +1,21 @@
 /* mixed blend mode  is like photo color editing */
-*{
+/* *{
     margin: 0;
     box-sizing: border-box;
-}
+} */
 
-.container{
+/* .container{
     background-color: crimson;
-}
+} */
 
-.container .img{
+/* .container .img{
     background-image: linear-gradient(steelblue, firebrick), url("hthttps://images.unsplash.com/photo-1667570520490-a0d6ef3e4e62?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dtps://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D"), url("https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
     height: 100vh;
     mix-blend-mode: overlay; 
-    background-blend-mode: multiply, screen ;
+    background-blend-mode: multiply, screen ; */
     /* mix-blend-mode: multiply;
     mix-blend-mode: darken;
     mix-blend-mode: lighten;
@@ -31,14 +31,14 @@
 
 
 
-}
+/* } */
 
-body{
+/* body{
     display: flex;
     justify-content: center ;
     align-items: center;
     height: 100vh;
-}
+} */
 /* ........................... */
 /* .s{ */
     /* background-color: rgb(219, 20, 60); */
@@ -49,3 +49,48 @@ body{
     border-radius: 15px calc(15px/10) 4px 2px;
     padding: calc(200px/10); */
 /* } */
+
+
+/* ................................... */   
+
+/* IS SELECTOR */
+
+
+/* 
+header :is(h1, h2, h3){
+    /* this means select h1, h2 , h3 elements from header  */
+    /* color: crimson; */
+/* } */ 
+
+/* section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6,
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+aside h1,
+aside h2,
+aside h3,
+aside h4,
+aside h5,
+aside h6,
+nav h1,
+nav h2,
+nav h3,
+nav h4,
+nav h5,
+nav h6{
+    color: teal
+} */
+
+/* instead use is selector */
+
+:is(section,article,aside,nav) :is(h1,h2,h3,h4,h5,h6){
+    color: teal;
+}

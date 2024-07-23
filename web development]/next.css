@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.s{
+    background-color: rgb(219, 20, 60);
+    width: calc(100px + 100px);
+    height: calc(100px - 50px);
+}

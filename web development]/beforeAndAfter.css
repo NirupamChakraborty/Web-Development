@@ -1,0 +1,54 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+} */
+
+/* Before the content */
+
+/* p::before{
+    content: "Hello";
+    background: crimson;
+    font-size: 20px;
+    color: teal;
+    font-weight: 800 ;
+} */
+
+
+/* After the content */
+
+/* p::after{
+    content: "mitro";
+    background: green;
+    font-size: 20px;
+    color: aqua;
+    font-weight: 800;
+} */
+
+/* ............................... */
+/* NOT SELECTOR */
+
+body{
+    background-color: grey;
+    color: white;
+    padding: 2rem;
+}
+
+/* .section{
+    width: 42rem;
+    margin: 0 auto;
+    background: rgb(32, 32, 31);
+    padding: 4rem; */
+
+/* } */
+
+ 
+
+.section button:not([styledisable]){
+    font-size: 20px;
+    background: crimson;
+    
+
+}

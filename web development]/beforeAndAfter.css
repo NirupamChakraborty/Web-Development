@@ -49,6 +49,23 @@ body{
 .section button:not([styledisable]){
     font-size: 20px;
     background: crimson;
-    
 
+
+}
+
+/*  variables in css */
+
+
+:root{
+    --primary-color: teal;
+    --font-size: 4rem;
+
+}
+h1{
+    color: var(--primary-color);
+
+}
+
+h2{
+    font-size: var(--font-size);
 }

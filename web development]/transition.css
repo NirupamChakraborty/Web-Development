@@ -1,0 +1,26 @@
+/* transform */
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div{
+    width: 300px;
+    height: 300px;
+    background-color: cyan;
+    /* move in y axis */
+    /* transform: translateY(200px);
+    transform: translateX(200px); */
+    /* transform: translate(100px, 100px); */
+    /* transform: translate(x axis, y axis); */
+    /* transform: rotate(50deg);
+    transform: scale(2); */
+    /*  transform: scale(value); increases the entire size */
+    /*  transform: scale(x,y); increases in x and y axis  */
+    /* transform: scale(1.5,2.7); */
+    transform: skew(50deg);
+ 
+}

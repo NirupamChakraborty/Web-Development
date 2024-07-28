@@ -1,0 +1,16 @@
+body{
+    background: coral;
+}
+
+@media screen and (max-width: 1000px) {
+    body{
+     background: blue;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body{
+     background: crimson;
+     font-size: 4rem;
+    }
+}

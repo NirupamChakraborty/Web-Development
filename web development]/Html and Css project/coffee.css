@@ -23,3 +23,33 @@ button{
 body{
     background: rgb(56, 49, 49);
 }
+/* Nav Start */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 15px;
+}
+
+li{
+    display: inline;
+    list-style: none;
+
+
+
+
+}
+
+li a{
+   color: white; 
+   text-decoration: none;
+   margin-left: 40px;
+   padding-left: 10px;
+
+}
+
+li a:hover{
+    border-bottom: 2px solid var(--main-color);
+}

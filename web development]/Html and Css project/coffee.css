@@ -3,7 +3,7 @@
 
 :root{
   --main-color: rgb(216, 130, 38);
-  --primary-color: rgba(93, 23, 23, 0.254);
+  --primary-color:  #312e2e;
 }
 
 /* utility styles */
@@ -22,7 +22,8 @@ button{
 
 body{
     /* background: rgb(56, 49, 49); */
-    background: black;
+    background: #100e0f;
+
 }
 /* Nav Start */
 nav{
@@ -352,7 +353,7 @@ hr{
 
 /* responsiveness */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     .main-headings,
     .primary-heading{
         font-size: 2.5rem;

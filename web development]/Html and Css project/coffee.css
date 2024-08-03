@@ -53,3 +53,76 @@ li a{
 li a:hover{
     border-bottom: 2px solid var(--main-color);
 }
+
+/* NAV END */
+
+
+
+/* HEADER START */
+
+
+.header{
+    background: url(pexels-nao-triponez-129207\ \(1\).jpg);
+    background-position: center ;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Playfair Display' , serif ;
+    font-weight: normal;
+
+    /* flex box */
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+
+.main-headings{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+   
+
+}
+
+
+
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40px;
+
+}
+
+.main-btn{
+    position: absolute;
+    bottom: 2rem;
+    padding: 10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    transform: translateY(60px);
+}
+
+#our-story{
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(pexels-chitokan-2183027-removebg-preview\ \(1\).png);
+    background-position: center ;
+    background-size: cover;
+}

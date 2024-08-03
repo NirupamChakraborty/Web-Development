@@ -109,9 +109,9 @@ li a:hover{
     background: var(--main-color);
     transform: translateY(60px);
 }
-
+/* OUR STORY START */
 #our-story{
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 15%;
     display: flex;
     flex-wrap: wrap ;
@@ -126,3 +126,90 @@ li a:hover{
     background-position: center ;
     background-size: cover;
 }
+
+.title-style{
+    display: flex;
+    align-items: center;
+
+}
+
+.title{
+    font-family:  'Playfair Display' , serif ;
+    font-size: 4rem;
+    color: white;
+    transform: translateX(-100px);
+}
+
+
+.line{
+    width: 100px;
+    height: 2px;
+    background: white;
+    transform: translateX(-120px);
+
+}
+
+.section-content p {
+    max-width: 500px;
+    color: white;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+
+}
+/* OUR STORY END */
+
+/* COFFEE START */
+
+.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+
+
+.img-2{
+    width: 400px;
+    height: 400px;
+}
+
+.title-two{
+    font-size: 3rem;
+    color: white;
+    font-family:  'Playfair Display' , serif ;
+}
+
+.content-section{
+    max-width: 500px ;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+/* coffee start end */
+
+
+.products{
+    margin-top: 5rem;
+
+}
+
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+

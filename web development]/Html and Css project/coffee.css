@@ -21,7 +21,8 @@ button{
 }
 
 body{
-    background: rgb(56, 49, 49);
+    /* background: rgb(56, 49, 49); */
+    background: black;
 }
 /* Nav Start */
 nav{
@@ -31,6 +32,10 @@ nav{
     color: white;
     font-family: sans-serif;
     padding-top: 15px;
+}
+
+.logo{
+    font-family: 'Playfair Display' , serif ;
 }
 
 li{
@@ -59,6 +64,11 @@ li a:hover{
 
 
 /* HEADER START */
+
+button:hover{
+    color: white;
+}
+
 
 
 .header{
@@ -190,7 +200,9 @@ li a:hover{
 }
 /* coffee start end */
 
-
+.products h1{
+    margin-left: 50%; 
+}
 .products{
     margin-top: 5rem;
 
@@ -213,3 +225,178 @@ li a:hover{
 
 }
 
+
+.card{
+    border: 2px solid var(--main-color);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px ;
+    position: relative;
+    margin-bottom: 4rem ;
+    color: white;
+    /* font-size: 1.5rem; */
+
+
+}
+
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+
+}
+
+.img-one{
+    background: url(1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-two{
+    background: url(2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-three{
+    background: url(3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title h1{
+   color:white ;
+   font-family: 'Playfair Display' , serif;
+   margin-top: 50px;
+   font-size: 1.5rem;
+   
+
+   
+
+
+
+
+}
+
+.items p {
+    color: white;
+    margin: 20px 0;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-bottom: 50px;
+
+}
+
+/* PRODUCTS END */
+
+
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    counter-reset: white;
+    font-family: sans-serif;
+
+}
+
+footer h1:hover{
+    border-bottom: 2px solid var(--main-color);
+}
+
+
+footer .container{
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+}
+
+footer .heading-info{
+    margin-bottom: 20px;
+
+}
+
+footer p {
+  line-height: 25px;
+}
+
+span{
+    color: var(--main-color);
+}
+
+hr{
+    margin-bottom: 25px;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.para{
+    color: white ;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+/* project end */
+
+/* responsiveness */
+
+@media only screen and (max-width: 768px){
+    .main-headings,
+    .primary-heading{
+        font-size: 2.5rem;
+    
+    }
+    #our-story{
+        text-align: center;
+    }
+    #our-story .title{
+        transform: translateX(50px);
+    }
+    #our-story .line{
+        display: none;
+
+    }
+    .content-section{
+        text-align: center;
+
+    }
+
+    #our-story .img-container .img{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+    .coffee-container .img-container{
+        margin-top: 5rem;
+        width: 50%;
+
+    }
+    .title{
+       margin:  0 auto; 
+
+    }
+
+    .title-two{
+       margin: 0 auto; 
+
+    }
+    .title-three{
+        /* display: none; */
+        margin: 0 auto;
+
+    }
+    
+    }
